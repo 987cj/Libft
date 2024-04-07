@@ -14,4 +14,13 @@ An individual project at 42 where you create a library of useful C functions.
 - [memmove](ft_memmove.c)
 - [strlcpy](ft_strlcpy.c)
 - [strlcat](ft_strlcat.c)
+- [toupper](ft_toupper.c)
+- [tolower](ft_tolower.c)
+- [strchr](ft_strchr.c)
+- [strrchr](ft_strrchr.c)
+- [strncmp](ft_strncmp.c)
+- [memchr](ft_memchr.c)
+- [memcmp](ft_memcmp.c)
+- [strnstr](ft_strnstr.c)
+- [atoi](ft_atoi.c)
 ## Additional:
