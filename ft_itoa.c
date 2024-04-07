@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 static int	findplaces(int n)
 {
@@ -84,11 +82,3 @@ char	*ft_itoa(int n)
 	number[i] = '\0';
 	return (number);
 }
-/*
-int	main(void)
-{
-	printf("%s ", ft_itoa(54));
-	printf("%s ", ft_itoa(-1242434));
-	printf("%s ", ft_itoa(-2147483648));
-}
-*/

@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
@@ -41,12 +39,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	string[ft_strlen(s1) + i] = '\0';
 	return (string);
 }
-/*
-int	main(void)
-{
-	printf("%s \n", ft_strjoin("abc", "def"));
-	printf("%s \n", ft_strjoin("abcdef", "XYZ"));
-	printf("%s \n", ft_strjoin("abc", " "));
-	printf("%s \n", ft_strjoin("123", ""));
-}
-*/

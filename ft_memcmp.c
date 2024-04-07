@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
-#include <stdio.h>
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
@@ -33,29 +31,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int	main(void)
-{
-	printf("%d \n", memcmp("abcdef", "abcdef", 6));
-	printf("%d", ft_memcmp("abcdef", "abcdef", 6));
-	printf("\n");
-	printf("%d \n", memcmp("abcdef", "abccef", 6));
-	printf("%d", ft_memcmp("abcdef", "abccef", 6));
-	printf("\n");
-	printf("%d \n", memcmp("abcdef", "abddef", 6));
-	printf("%d", ft_memcmp("abcdef", "abddef", 6));
-	printf("\n");
-	printf("%d \n", memcmp("", "", 1));
-	printf("%d", ft_memcmp("", "", 1));
-	printf("\n");
-	printf("%d \n", memcmp("", "", 6));
-	printf("%d", ft_memcmp("", "", 6));
-	printf("\n");
-	printf("%d \n", memcmp("abc", "abc", 7));
-	printf("%d", ft_memcmp("abc", "abc", 7));
-	printf("\n");
-	printf("%d \n", memcmp("abcdef", "abcxyz", 3));
-	printf("%d", ft_memcmp("abcdef", "abcxyz", 3));
-	printf("\n");
-}
-*/

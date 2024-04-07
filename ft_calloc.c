@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 void	*ft_calloc(size_t count, size_t size)
 {
@@ -34,30 +32,3 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (newbytes);
 }
-/*
-int	main(void)
-{
-	char	*a;
-	char	*b;
-	int		i;
-
-	a = calloc(5, sizeof(char));
-	b = ft_calloc(5, sizeof(char));
-	
-	a[0] = 'd';
-	b[0] = 'd';
-	i = 0;
-	while (i < 5)
-	{
-		printf("%d ", a[i]);
-		i++;
-	}
-	printf("\n");
-	i = 0;
-	while (i < 5)
-	{
-		printf("%d ", b[i]);
-		i++;
-	}
-}
-*/

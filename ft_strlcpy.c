@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
-#include <stdio.h>
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
@@ -36,16 +34,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (length);
 }
-/*
-int	main(void)
-{
-	char	dest1[6];
-	char	dest2[6];
-	char	source[] = "aphrodite";
-
-	printf("%lu \n", strlcpy(dest1, source, 6));
-	printf("%s \n", dest1);
-	printf("%lu \n", ft_strlcpy(dest2, source, 6));
-	printf("%s", dest2);
-}
-*/

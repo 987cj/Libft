@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
-#include <stdio.h>
 
 static int	same_string(const char *mainstr, const char *otherstr)
 {
@@ -58,15 +56,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-/*
-int	main(void)
-{
-	char a[] = "Ready Go";
-	char b[] = "Yes";
-	printf("%s \n", strnstr(a, b, 12));
-	printf("%s", ft_strnstr(a, b, 12));
-
-	printf("\n");
-	printf("%s", ft_strnstr(((void *)0), "fake", 3));
-}
-*/

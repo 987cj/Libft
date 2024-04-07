@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 static char	*findstart(char const *s1, char const *set)
 {
@@ -94,11 +92,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	string[i] = '\0';
 	return (string);
 }
-/*
-int	main(void)
-{
-	printf("%s \n", ft_strtrim("  hi  ", " "));
-	printf("%s \n", ft_strtrim("xyzHello x xyz", "xyz "));
-	printf("%s \n", ft_strtrim("abcd123c321dcba", "abcd"));
-}
-*/

@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 static int	checkspace(char a)
 {
@@ -55,10 +53,3 @@ int	ft_atoi(const char *str)
 	}
 	return (num * sign);
 }
-/*
-int	main(void)
-{
-	printf("%d \n", atoi(""));
-	printf("%d", ft_atoi(""));
-}
-*/

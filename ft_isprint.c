@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <ctype.h>
-#include <stdio.h>
 
 int	ft_isprint(int c)
 {
@@ -25,10 +23,3 @@ int	ft_isprint(int c)
 		return (0);
 	}
 }
-/*
-int	main(void)
-{
-	printf("%d \n", isprint('~'));
-	printf("%d", ft_isprint('~'));
-}
-*/

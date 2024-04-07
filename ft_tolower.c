@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <ctype.h>
-#include <stdio.h>
 
 int	ft_tolower(int c)
 {
@@ -25,10 +23,3 @@ int	ft_tolower(int c)
 		return (c);
 	}
 }
-/*
-int	main(void)
-{
-	printf("%c \n", tolower('*'));
-	printf("%c", ft_tolower('*'));
-}
-*/

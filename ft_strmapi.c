@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
@@ -35,14 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	string[i] = '\0';
 	return (string);
 }
-/*
-static char	testfunction(unsigned int x, char y)
-{
-	return (x + y);
-}
-
-int	main(void)
-{
-	printf("%s", ft_strmapi("abcd", &testfunction));
-}
-*/

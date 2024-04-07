@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
-#include <stdio.h>
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
@@ -38,32 +36,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	}
 	return (ft_strlen(src) + dstsize);
 }
-/*
-int	main(void)
-{
-	char	dest1[6] = "";
-	char	dest2[6] = "";
-	char	source[] = "def";
-
-	printf("%lu \n", strlcat(dest1, source, 6));
-	printf("%s \n", dest1);
-	printf("%lu \n", ft_strlcat(dest2, source, 6));
-	printf("%s", dest2);
-
-	char	wtest1[30] = "pqrstuvwxyz";
-	char	wtest2[30] = "pqrstuvwxyz";
-	char	source2[] = "abc";
-
-	printf("%lu \n", strlcat(wtest1, source2, 0));
-	printf("%s \n", wtest1);
-	printf("%lu \n", ft_strlcat(wtest2, source2, 0));
-	printf("%s", wtest2);
-
-	char dest[30]; memset(dest, 0, 30);
-	char * src = (char *)"AAAAAAAAA";
-
-	printf("\n");
-	printf("%lu \n", ft_strlcat(dest, src, -1));
-	printf("%s", dest);
-}
-*/

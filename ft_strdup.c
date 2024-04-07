@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 
 char	*ft_strdup(const char *s1)
 {
@@ -35,19 +32,3 @@ char	*ft_strdup(const char *s1)
 	}
 	return (dupe);
 }
-/*
-int	main(void)
-{
-	char	src[] = "ABCD 123 []";
-	char	*a;
-	char	*b;
-
-	a = strdup(src);
-	b = ft_strdup(src);
-	printf("%s \n", a);
-	printf("%s", b);
-
-	free(a);
-	free(b);
-}
-*/

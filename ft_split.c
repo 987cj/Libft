@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 static int	wordcount(char const *s, char c)
 {
@@ -111,18 +109,3 @@ char	**ft_split(char const *s, char c)
 	splitarr[i] = NULL;
 	return (splitarr);
 }
-/*
-int	main(void)
-{
-	char	**a;
-	int		i;
-
-	a = ft_split("  hello i am splitting this message ", ' ');
-	i = 0;
-	while (i < 6)
-	{
-		printf("%s\n", a[i]);
-		i++;
-	}
-}
-*/

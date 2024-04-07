@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 static int	finddigits(long int n)
 {
@@ -64,18 +63,3 @@ void	ft_putnbr_fd(int n, int fd)
 		i++;
 	}
 }
-/*
-int	main(void)
-{
-	char	newline;
-
-	newline = '\n';
-	ft_putnbr_fd(-100, 1);
-	write(1, &newline, 1);
-	ft_putnbr_fd(42, 1);
-	write(1, &newline, 1);
-	ft_putnbr_fd(0, 1);
-	write(1, &newline, 1);
-	ft_putnbr_fd(-2147483648, 1);
-}
-*/
