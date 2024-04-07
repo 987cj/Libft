@@ -25,6 +25,7 @@ The basic functions are implemented from libc, while the additional ones may not
 - [memcmp](ft_memcmp.c)
 - [strnstr](ft_strnstr.c)
 - [atoi](ft_atoi.c)
+
 With malloc():
 - [calloc](ft_calloc.c)
 - [strdup](ft_strdup.c)
